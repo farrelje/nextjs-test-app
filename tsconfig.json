@@ -1,15 +1,20 @@
 {
   "compilerOptions": {
-    "jsx": "preserve",
+    "target": "es5",
     "allowJs": true,
-    "alwaysStrict": true,
-    "skipLibCheck": true,
-    "target": "esnext",
-    "noEmit": true,
-    "moduleResolution": "node",
-    "module": "esnext",
-    "noUnusedParameters": true,
+    "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
+    "jsx": "preserve",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "suppressImplicitAnyIndexErrors": true,
     "lib": [
       "dom",
       "es2017"
@@ -20,7 +25,7 @@
       "@components/*": ["./src/components/*"],
       "@utils/*": ["./src/utils/*"]
     },
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true
   },
