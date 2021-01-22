@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&family=Oxygen:wght@400;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// Global CSS variables
+:root {
+  --hr-gray: #D3D3D3;
+  --primary-font: 'Oxygen', sans-serif;
+  --heading-font: 'BioRhyme', serif;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--primary-font);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+}

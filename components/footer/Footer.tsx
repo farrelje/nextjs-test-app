@@ -1,10 +1,10 @@
-import React from 'react';
-
+import footerStyles from './footer.module.scss';
 
 const Footer = () => {
+    const year = new Date().getFullYear();
     return (
-        <footer>
-            <div>Footer</div>
+        <footer className={footerStyles.footer}>
+            <div>RecipeStack {year}</div>
         </footer>
     )
 }
